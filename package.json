@@ -4,8 +4,12 @@
   "scripts": {
     "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
+    "typecheck": "tsc -p . --noEmit",
     "test": "jest",
     "deploy": "netlify deploy -d dist --prod"
+  },
+  "dependencies": {
+    "core-js": "3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
@@ -14,8 +18,5 @@
     "parcel": "^2.0.0-alpha.1.1",
     "ts-jest": "^24.1.0",
     "typescript": "^3.7.0-beta"
-  },
-  "dependencies": {
-    "core-js": "3"
   }
 }
