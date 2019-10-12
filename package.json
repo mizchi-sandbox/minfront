@@ -9,11 +9,13 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
-    "jest": "^24.5.0",
-    "netlify-cli": "^2.9.1",
-    "parcel-bundler": "^1.12.3",
-    "ts-jest": "^24.0.1",
-    "typescript": "^3.4.1"
+    "jest": "^24.9.0",
+    "netlify-cli": "^2.17.0",
+    "parcel": "^2.0.0-alpha.1.1",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.0-beta"
   },
-  "dependencies": {}
+  "dependencies": {
+    "core-js": "3"
+  }
 }

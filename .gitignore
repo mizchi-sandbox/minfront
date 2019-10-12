@@ -42,3 +42,4 @@ node_modules/
 
 dist
 .netlify
+.parcel-cache
